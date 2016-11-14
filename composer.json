@@ -1,0 +1,29 @@
+{
+    "name": "cxbyte/laravel-zmqdriver",
+    "type": "package",
+    "description": "Zmq broadcasting driver for Laravel",
+    "keywords": [
+        "cxbyte",
+        "zmq driver",
+        "laravel"
+    ],
+    "homepage": "https://github.com/cxbyte/zmqdriver",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Andrey Petrov",
+            "email": "cxbyte@mail.ru",
+            "homepage": "https://github.com/cxbyte",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "illuminate/support": "~5.1",
+        "php" : ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cxbyte\\ZmqDriver\\": "src"
+        }
+    }
+}
