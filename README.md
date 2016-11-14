@@ -1,7 +1,7 @@
 #Zmq broadcasting driver for Laravel
 
 #Installation
-`composer require cxbyte/laravel-zmqdriver`
+`composer require cxbyte/laravel-zmq-driver`
 
 #Configure
 1. add to your **config/app.php** in providers section
