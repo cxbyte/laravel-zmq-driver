@@ -1,5 +1,5 @@
 {
-    "name": "cxbyte/laravel-zmqdriver",
+    "name": "cxbyte/laravel-zmq-driver",
     "type": "package",
     "description": "Zmq broadcasting driver for Laravel",
     "keywords": [
