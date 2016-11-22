@@ -4,26 +4,8 @@ namespace Cxbyte\ZmqDriver;
 
 use Illuminate\Support\ServiceProvider;
 
-/**
- * Service provider for Zmq driver
- *
- * @category Laravel
- *
- * @package Cxbyte\ZmqDriver
- *
- * @author Andrey Petrov <cxbyte@mail.ru>
- *
- * @license http://opensource.org/licenses/gpl-license.php GNU Public License
- *
- * @link https://github.com/cxbyte/zmqdriver
- */
 class ZmqDriverServiceProvider extends ServiceProvider
 {
-    /**
-     * Register zmq driver
-     *
-     * @return void
-     */
     public function register()
     {
         /**@var \Illuminate\Config\Repository $appConfig*/

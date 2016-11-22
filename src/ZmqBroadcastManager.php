@@ -26,7 +26,7 @@ class ZmqBroadcastManager extends BroadcastManager
      *
      * @return ZmqBroadcaster
      */
-    protected function createZmqDriver(array $config)
+    public function createZmqDriver(array $config)
     {
         $socket = (new \ZMQContext())->getSocket(\ZMQ::SOCKET_PUB);
 

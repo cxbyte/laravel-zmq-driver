@@ -1,0 +1,12 @@
+suites:
+  main:
+      src_path: src
+      spec_path: .
+      namespace: Cxbyte\ZmqDriver
+      psr4_prefix: Cxbyte\ZmqDriver
+
+extensions:
+  PhpSpec\Laravel\Extension\LaravelExtension:
+    testing_environment: "testing"
+
+formatter.name: pretty

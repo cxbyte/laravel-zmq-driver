@@ -23,7 +23,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Cxbyte\\ZmqDriver\\": "src"
+            "Cxbyte\\ZmqDriver\\": "src",
+            "spec\\Cxbyte\\ZmqDriver\\": "spec"
         }
     }
 }
